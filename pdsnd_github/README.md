@@ -1,5 +1,5 @@
 ### Date created
-Project created at May 26, 2020
+Python project created at May 15, 2020
 
 ### Project Title
 Bike Share Data - Udacity Course: Programming for Data Science with Python Nanodegree Program 2020
