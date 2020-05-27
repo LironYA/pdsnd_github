@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+Project created at May 26, 2020
 
 ### Project Title
-Replace the Project Title
+Bike Share Data - Udacity Course: Programming for Data Science with Python Nanodegree Program 2020
 
 ### Description
-Describe what your project is about and what it does
+A simple app to show the statistics of Chicago, New York City and Washington for Bike sharing data.
+Project was done using numpy and pandas.
+Program prompts the user for information about the data they would like to view, like city name and month.
+More statistics are available like the most common month and hours, trip duration, start and end stations, average of duration.
 
 ### Files used
-Include the files used
-
+Bike Share data from New York, Washington and Chicago
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Udacity
