@@ -2,7 +2,7 @@ import time
 import pandas as pd
 import numpy as np
 
-# loading files
+# loading files from .csv
 CITY_DATA = {
     'chicago':'chicago.csv',
     'new york city':'new_york_city.csv',
@@ -110,7 +110,6 @@ def load_data(city, month, day):
     if month != 'all':
         months = ['january', 'february', 'march', 'april', 'may', 'june']
         month = months.index(month) + 1
-
         df = df[df['month'] == month]
 
     #Filter by day of the week
@@ -198,7 +197,6 @@ def raw_data(df):
     #Drop but don't save
     df = df.drop(['month', 'day_of_week'], axis = 1)
     row_index = 0
-
     show_data = input("\nWowuld you like to view the raw data? 'yes' or 'no' \n").lower()
     while True:
         if show_data == 'no':
@@ -207,6 +205,7 @@ def raw_data(df):
             print(df[row_index: row_index + 5])
             row_i = row_index + 5
         show_data = input("\n Would you like to view five more rows of the raw data? 'yes' or 'no' \n").lower()
+        #Calling the functions
 def main():
     city = get_city()
     filter = get_filter()
